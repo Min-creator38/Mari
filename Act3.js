@@ -8,8 +8,8 @@ const transacciones =[
 const Retiros = transacciones => transacciones.tipo === 'retiro' 
 const RetiroMayor = transacciones => transacciones.monto >= 5000
 
-
 const Mayor5000 = transacciones => Retiros(transacciones) && RetiroMayor(transacciones)
+
 const TransaccionesMayores = transacciones.filter(Mayor5000)
 console.log(TransaccionesMayores)
 
