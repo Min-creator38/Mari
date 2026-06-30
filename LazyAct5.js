@@ -86,6 +86,7 @@ console.log('Promedio: ', promedioBecados)
 
 
 
+
 // Ejercicio 2: 
 const paquetes = Object.freeze([ 
     { tracking: 'ZA1', estado: 'Tabasco', peso: 20 }, 
